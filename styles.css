@@ -1,0 +1,49 @@
+/* Color palette */
+/* --english-violet: #45425aff;
+--ebony: #575c55ff;
+--reseda-green: #6c7d47ff;
+--moss-green: #96a13aff;
+--apple-green: #acc12fff; */
+
+body {
+    background-color: #45425aff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comforter', cursive;
+  }
+
+.container {
+    background-color: #575c55ff;
+    margin: 15px;
+    width: 350px;
+    height: 250px;
+    outline: dashed 4px black;
+}
+
+.title {
+    font-size: x-large;  
+}
+
+.sub-title {
+    font-size:  xx-large; 
+}
+
+.btn-increase {
+    background-color: #6c7d47ff;
+}
+
+.btn-decrease {
+    background-color: #96a13aff;
+}
+
+.btn-reset {
+    background-color: #acc12fff;
+}
+
+.btn-general {
+    border-radius: 15px;
+    font-size: medium;   
+}
+
